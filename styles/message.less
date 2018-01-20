@@ -1,5 +1,15 @@
 .message {
   font-family: OpenSans, sans-serif;
+
+  &__user-photo {
+    float: left;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
   &_friendly {
     float: left;
     clear: both;
@@ -10,7 +20,7 @@
     margin-bottom: 8px;
   }
 
-  &__text {
+  &__friendly-text {
     max-width: 72%;
     text-align: left;
     float: left;
@@ -43,7 +53,6 @@
     }
   }
 
-
   &_user {
     max-width: 58%;
     float: right;
@@ -53,18 +62,17 @@
     margin-right: 16px;
     margin-top: 8px;
     margin-bottom: 9px;
+  }
 
-    &__text {
-      text-align: left;
-      float: right;
-      clear: both;
-      color: #fff;
-      padding: 5px 12px 6px 12px;
-      box-sizing: border-box;
-      word-wrap: break-word;
-      background-color: #2979ff;
-      border-radius: 14px;
-    }
+  &__user-text {
+    float: right;
+    clear: both;
+    color: #fff;
+    padding: 5px 12px 6px 12px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background-color: #2979ff;
+    border-radius: 14px;
 
     &_multiple-first {
       margin-bottom: 1px;
@@ -89,14 +97,5 @@
 
   &_first-block {
     margin-top: 17px;
-  }
-
-  &__user-photo {
-    float: left;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    vertical-align: middle;
-    cursor: pointer;
   }
 }
