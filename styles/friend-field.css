@@ -31,7 +31,7 @@
   word-wrap: break-word;
   margin-left: 8px;
 }
-.friend-field__message_multiple-top {
+.friend-field__message_multiple-first {
   border-bottom-left-radius: 0;
   margin-bottom: 1px;
 }
@@ -42,7 +42,7 @@
   margin-bottom: 1px;
   clear: left;
 }
-.friend-field__message_multiple-bottom {
+.friend-field__message_multiple-last {
   border-top-left-radius: 0;
   padding: 4px 12px 7px 12px;
   margin-left: 36px;

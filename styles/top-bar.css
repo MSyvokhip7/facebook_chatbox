@@ -1,4 +1,4 @@
-.header {
+.top-bar {
   float: left;
   display: inline-block;
   width: 100%;
@@ -7,7 +7,7 @@
   background-color: #2979ff;
   line-height: 32px;
 }
-.header__user-status {
+.top-bar__user-status {
   display: inline-block;
   width: 6px;
   height: 6px;
@@ -16,7 +16,7 @@
   vertical-align: middle;
   margin-left: 12px;
 }
-.header__username {
+.top-bar__username {
   display: inline-block;
   vertical-align: middle;
   max-width: 150px;
@@ -31,6 +31,6 @@
   cursor: pointer;
   text-decoration: none;
 }
-.header__username:hover {
+.top-bar__username:hover {
   text-decoration: underline;
 }

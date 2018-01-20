@@ -1,4 +1,4 @@
-.footer-aside-tools {
+.user-options {
   float: left;
   display: inline-block;
   margin-left: 16px;
@@ -6,7 +6,7 @@
   width: 160px;
   height: 32px;
 }
-.footer-aside-tools__button {
+.user-options__button {
   float: left;
   width: 16px;
   height: 16px;
@@ -17,21 +17,21 @@
   margin-right: 10px;
   padding: 0;
 }
-.footer-aside-tools__button_pictures {
+.user-options__button_pictures {
   background: url("../images/Picture.svg") no-repeat;
 }
-.footer-aside-tools__button_gifs {
+.user-options__button_gifs {
   width: 21px;
   background: url("../images/Gif.svg") no-repeat;
 }
-.footer-aside-tools__button_smiles {
+.user-options__button_smiles {
   background: url("../images/Smile.svg") no-repeat;
 }
-.footer-aside-tools__button_calendar {
+.user-options__button_calendar {
   height: 18px;
   background: url("../images/Calendar.svg") no-repeat;
 }
-.footer-aside-tools__button_camera {
+.user-options__button_camera {
   width: 21px;
   height: 17px;
   background: url("../images/Camera.svg") no-repeat;

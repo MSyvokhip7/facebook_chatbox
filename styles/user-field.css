@@ -20,7 +20,7 @@
   background-color: #2979ff;
   border-radius: 14px;
 }
-.user-field__message_multiple-top {
+.user-field__message_multiple-first {
   margin-bottom: 1px;
   padding: 5px 13px 6px 12px;
   border-bottom-right-radius: 0;
@@ -30,7 +30,7 @@
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-.user-field__message_multiple-bottom {
+.user-field__message_multiple-last {
   border-top-right-radius: 0;
 }
 .user-field__message_single {
