@@ -1,5 +1,7 @@
 .message {
   font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  line-height: 17px;
 }
 .message__user-photo {
   float: left;
@@ -12,8 +14,6 @@
 .message_friendly {
   float: left;
   clear: both;
-  font-size: 12px;
-  line-height: 17px;
   margin-left: 16px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -51,8 +51,6 @@
   max-width: 58%;
   float: right;
   clear: both;
-  font-size: 12px;
-  line-height: 17px;
   margin-right: 16px;
   margin-top: 8px;
   margin-bottom: 9px;
