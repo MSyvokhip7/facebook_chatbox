@@ -33,6 +33,12 @@
   border-bottom-left-radius: 0;
   margin-bottom: 1px;
 }
+.friend-field__message_multiple-middle {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: 36px;
+  margin-bottom: 1px;
+}
 .friend-field__message_multiple-bottom {
   border-top-left-radius: 0;
   margin-left: 36px;

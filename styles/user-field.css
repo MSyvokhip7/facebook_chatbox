@@ -24,6 +24,11 @@
   margin-bottom: 1px;
   border-bottom-right-radius: 0;
 }
+.user-field__message_multiple-middle {
+  margin-bottom: 1px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
 .user-field__message_multiple-bottom {
   border-top-right-radius: 0;
 }
