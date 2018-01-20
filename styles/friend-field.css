@@ -1,7 +1,7 @@
 .friend-field {
   font-family: OpenSans, sans-serif;
   float: left;
-  box-sizing: border-box;
+  clear: both;
   font-size: 12px;
   line-height: 17px;
   margin-left: 16px;
@@ -12,17 +12,19 @@
   margin-top: 17px;
 }
 .friend-field__user-photo {
-  width: 28px;
   float: left;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   vertical-align: middle;
   cursor: pointer;
 }
 .friend-field__message {
-  max-width: 155px;
-  float: left;
-  background-color: #f3f3f3;
+  max-width: 72%;
   text-align: left;
+  float: left;
+  clear: right;
+  background-color: #f3f3f3;
   color: #353535;
   border-radius: 15px;
   padding: 5px 12px 6px 12px;
@@ -38,8 +40,11 @@
   border-top-left-radius: 0;
   margin-left: 36px;
   margin-bottom: 1px;
+  clear: left;
 }
 .friend-field__message_multiple-bottom {
   border-top-left-radius: 0;
+  padding: 4px 12px 7px 12px;
   margin-left: 36px;
+  clear: left;
 }

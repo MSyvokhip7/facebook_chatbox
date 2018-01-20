@@ -1,15 +1,15 @@
 .user-field {
   font-family: OpenSans, sans-serif;
+  max-width: 58%;
   float: right;
   clear: both;
   font-size: 12px;
   line-height: 17px;
   margin-right: 16px;
   margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 .user-field__message {
-  max-width: 165px;
   text-align: left;
   float: right;
   clear: both;
@@ -22,6 +22,7 @@
 }
 .user-field__message_multiple-top {
   margin-bottom: 1px;
+  padding: 5px 13px 6px 12px;
   border-bottom-right-radius: 0;
 }
 .user-field__message_multiple-middle {
@@ -31,4 +32,7 @@
 }
 .user-field__message_multiple-bottom {
   border-top-right-radius: 0;
+}
+.user-field__message_single {
+  padding: 5px 12px 6px 12px;
 }

@@ -1,20 +1,24 @@
 .header-aside-tools {
+  width: 100px;
+  height: 32px;
   float: right;
-  vertical-align: middle;
+  display: inline-block;
+
   &__button {
+    float: left;
     width: 12px;
+    height: 12px;
     background: no-repeat;
     color: transparent;
-    vertical-align: middle;
     border: none;
     cursor: pointer;
     padding: 0;
+    margin: 0;
     opacity: 0.75;
 
     &_add {
-      height: 12px;
       background: url("../images/Plus.svg") no-repeat;
-      margin-right: 6px;
+      margin: 10px 0;
       &:hover{
         opacity: 1;
       }
@@ -23,16 +27,17 @@
     &_video-chat {
       height: 8px;
       background: url("../images/Video.svg") no-repeat;
-      margin-right: 7px;
+      margin-top: 12px;
+      margin-left: 14px;
       &:hover{
         opacity: 1;
       }
     }
 
     &_options {
-      height:12px;
       background: url("../images/Cog.svg") no-repeat;
-      margin-right: 1px;
+      margin-top: 10px;
+      margin-left: 15px;
       &:hover{
         opacity: 1;
       }
@@ -41,7 +46,8 @@
       width: 18px;
       height: 18px;
       background: url("../images/Close.svg") no-repeat;
-      margin-right: 6px;
+      margin-top: 7px;
+      margin-left: 9px;
       &:hover{
         opacity: 1;
       }

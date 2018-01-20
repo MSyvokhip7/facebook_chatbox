@@ -1,21 +1,24 @@
 .header-aside-tools {
+  width: 100px;
+  height: 32px;
   float: right;
-  vertical-align: middle;
+  display: inline-block;
 }
 .header-aside-tools__button {
+  float: left;
   width: 12px;
+  height: 12px;
   background: no-repeat;
   color: transparent;
-  vertical-align: middle;
   border: none;
   cursor: pointer;
   padding: 0;
+  margin: 0;
   opacity: 0.75;
 }
 .header-aside-tools__button_add {
-  height: 12px;
   background: url("../images/Plus.svg") no-repeat;
-  margin-right: 6px;
+  margin: 10px 0;
 }
 .header-aside-tools__button_add:hover {
   opacity: 1;
@@ -23,15 +26,16 @@
 .header-aside-tools__button_video-chat {
   height: 8px;
   background: url("../images/Video.svg") no-repeat;
-  margin-right: 7px;
+  margin-top: 12px;
+  margin-left: 14px;
 }
 .header-aside-tools__button_video-chat:hover {
   opacity: 1;
 }
 .header-aside-tools__button_options {
-  height: 12px;
   background: url("../images/Cog.svg") no-repeat;
-  margin-right: 1px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 .header-aside-tools__button_options:hover {
   opacity: 1;
@@ -40,7 +44,8 @@
   width: 18px;
   height: 18px;
   background: url("../images/Close.svg") no-repeat;
-  margin-right: 6px;
+  margin-top: 7px;
+  margin-left: 9px;
 }
 .header-aside-tools__button_close:hover {
   opacity: 1;
