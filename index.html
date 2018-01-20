@@ -11,8 +11,7 @@
     <link type="text/css" rel="stylesheet/less" href="styles/top-bar.less">
     <link type="text/css" rel="stylesheet/less" href="styles/chatbox-options.less">
     <link type="text/css" rel="stylesheet/less" href="styles/chat-section.less">
-    <link type="text/css" rel="stylesheet/less" href="styles/user-input-field.less">
-    <link type="text/css" rel="stylesheet/less" href="styles/input-options.less">
+    <link type="text/css" rel="stylesheet/less" href="styles/input-field.less">
     <link type="text/css" rel="stylesheet/less" href="styles/message.less">
     <title>Facebook Chatbox</title>
 </head>
@@ -33,14 +32,14 @@
     <section class="chat-section">
         <section class="message message_friendly message_first-block">
             <img class="message__user-photo" src="http://res.cloudinary.com/do9osx65u/image/upload/c_scale,q_100,w_28/v1516449958/default_user_n3onwk.jpg" alt="Friendly-user-picture">
-            <span class="message__friendly-text message__friendly-text_single">
+            <span class="message__friend-text message__friend-text_single">
                 Yo, Can you update views?
             </span>
         </section>
         <time class="chat-section__message-time" datetime="2018-01-19 11:30">FRI 11:30AM </time>
         <section class="message message_friendly">
             <img class="message__user-photo" src="http://res.cloudinary.com/do9osx65u/image/upload/c_scale,q_100,w_28/v1516449958/default_user_n3onwk.jpg" alt="Friendly-user-picture">
-            <span class="message__friendly-text message__friendly-text_single">
+            <span class="message__friend-text message__friend-text_single">
                 I can’t see updated views yet
             </span>
         </section>
@@ -54,24 +53,24 @@
         </section>
         <section class="message message_friendly">
             <img class="message__user-photo" src="http://res.cloudinary.com/do9osx65u/image/upload/c_scale,q_100,w_28/v1516449958/default_user_n3onwk.jpg" alt="Friendly-user-picture">
-            <span class="message__friendly-text message__friendly-text_multiple-first">
+            <span class="message__friend-text message__friend-text_multiple-first">
                 Ahh sorry, missed that!
             </span>
-            <span class="message__friendly-text message__friendly-text_multiple-last">
+            <span class="message__friend-text message__friend-text_multiple-last">
                 Let’s talk next week
             </span>
         </section>
     </section>
-    <section class="user-input-field">
-        <form class="user-input-field__form">
-            <input class="user-input-field__input" type="text" placeholder="Type a message..." size="34">
+    <section class="input-field">
+        <form class="input-field__form">
+            <input class="input-field__input" type="text" placeholder="Type a message..." size="34">
         </form>
-        <aside class="input-options">
-            <button class="input-options__button input-options__button_pictures"></button>
-            <button class="input-options__button input-options__button_gifs"></button>
-            <button class="input-options__button input-options__button_smiles"></button>
-            <button class="input-options__button input-options__button_calendar"></button>
-            <button class="input-options__button input-options__button_camera"></button>
+        <aside class="input-field__options">
+            <button class="input-field__button input-field__button_pictures"></button>
+            <button class="input-field__button input-field__button_gifs"></button>
+            <button class="input-field__button input-field__button_smiles"></button>
+            <button class="input-field__button input-field__button_calendar"></button>
+            <button class="input-field__button input-field__button_camera"></button>
         </aside>
     </section>
 </main>

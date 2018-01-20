@@ -18,7 +18,7 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.message__friendly-text {
+.message__friend-text {
   max-width: 72%;
   text-align: left;
   float: left;
@@ -30,18 +30,18 @@
   word-wrap: break-word;
   margin-left: 8px;
 }
-.message__friendly-text_multiple-first {
+.message__friend-text_multiple-first {
   border-bottom-left-radius: 0;
   margin-bottom: 1px;
 }
-.message__friendly-text_multiple-middle {
+.message__friend-text_multiple-middle {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   margin-left: 36px;
   margin-bottom: 1px;
   clear: left;
 }
-.message__friendly-text_multiple-last {
+.message__friend-text_multiple-last {
   border-top-left-radius: 0;
   padding: 4px 12px 7px 12px;
   margin-left: 36px;
