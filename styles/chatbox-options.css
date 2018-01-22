@@ -15,12 +15,12 @@
   margin: 0;
   opacity: 0.75;
 }
+.chatbox-options__button:hover {
+  opacity: 1;
+}
 .chatbox-options__button_add {
   background: url("../images/Plus.svg") no-repeat;
   margin: 10px 0;
-}
-.chatbox-options__button_add:hover {
-  opacity: 1;
 }
 .chatbox-options__button_video-chat {
   height: 8px;
@@ -28,16 +28,10 @@
   margin-top: 12px;
   margin-left: 14px;
 }
-.chatbox-options__button_video-chat:hover {
-  opacity: 1;
-}
 .chatbox-options__button_options {
   background: url("../images/Cog.svg") no-repeat;
   margin-top: 10px;
   margin-left: 15px;
-}
-.chatbox-options__button_options:hover {
-  opacity: 1;
 }
 .chatbox-options__button_close {
   width: 18px;
@@ -45,7 +39,4 @@
   background: url("../images/Close.svg") no-repeat;
   margin-top: 7px;
   margin-left: 9px;
-}
-.chatbox-options__button_close:hover {
-  opacity: 1;
 }

@@ -1,4 +1,4 @@
-.input-field {
+.create-message {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   width: 100%;
@@ -7,28 +7,28 @@
   float: left;
   border-top: solid 1px #e5e5e5;
 }
-.input-field__form {
+.create-message__form {
   margin-left: 16px;
   margin-top: 7px;
 }
-.input-field__input {
+.create-message__input {
   display: block;
   background-color: transparent;
   width: 100%;
   border: none;
 }
-.input-field__input::placeholder {
+.create-message__input::placeholder {
   font-weight: 600;
   text-align: left;
   color: #cdcdcd;
 }
-.input-field__options {
+.create-message__options {
   float: left;
   margin-left: 16px;
   margin-top: 9px;
   height: 32px;
 }
-.input-field__button {
+.create-message__button {
   float: left;
   width: 16px;
   height: 16px;
@@ -39,21 +39,21 @@
   margin-right: 10px;
   padding: 0;
 }
-.input-field__button_pictures {
+.create-message__button_pictures {
   background: url("../images/Picture.svg") no-repeat;
 }
-.input-field__button_gifs {
+.create-message__button_gifs {
   width: 21px;
   background: url("../images/Gif.svg") no-repeat;
 }
-.input-field__button_smiles {
+.create-message__button_smiles {
   background: url("../images/Smile.svg") no-repeat;
 }
-.input-field__button_calendar {
+.create-message__button_calendar {
   height: 18px;
   background: url("../images/Calendar.svg") no-repeat;
 }
-.input-field__button_camera {
+.create-message__button_camera {
   width: 21px;
   height: 17px;
   background: url("../images/Camera.svg") no-repeat;
